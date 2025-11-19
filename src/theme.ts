@@ -9,7 +9,7 @@ const config = defineConfig({
             value: { _light: "{colors.white}", _dark: "#1B202A" }, // Custom dark background
           },
           subtle: {
-            value: { _light: "{colors.gray.50}", _dark: "#1a1a1a" }, // Custom dark subtle background
+            value: { _light: "{colors.gray.50}", _dark: "#2B3442" }, // Custom dark subtle background
           },
           muted: {
             value: { _light: "{colors.gray.100}", _dark: "#262626" }, // Custom dark muted background

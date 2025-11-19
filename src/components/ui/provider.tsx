@@ -1,6 +1,6 @@
 "use client";
 
-import theme from "@/theme";
+import theme from "../../theme";
 import { ChakraProvider } from "@chakra-ui/react";
 import { ColorModeProvider, type ColorModeProviderProps } from "./color-mode";
 
