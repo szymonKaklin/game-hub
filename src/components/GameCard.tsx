@@ -10,13 +10,7 @@ interface Props {
 
 const GameCard = ({ game }: Props) => {
   return (
-    <Card.Root
-      width="300px"
-      borderRadius="10px"
-      overflow="hidden"
-      bg="bg.subtle"
-      variant="outline"
-    >
+    <>
       <Image src={getCroppedImageUrl(game.background_image)} />
       <Card.Body>
         <Heading fontSize="2xl">{game.name}</Heading>
@@ -27,7 +21,7 @@ const GameCard = ({ game }: Props) => {
           <CriticScore score={game.metacritic} />
         </HStack>
       </Card.Body>
-    </Card.Root>
+    </>
   );
 };
 
